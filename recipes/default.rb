@@ -15,7 +15,7 @@ package "ncurses-devel" do
 end
 
 git "/usr/local/src/sl" do
-    repository git://github.com/mtoyoda/sl.git
+    repository "git://github.com/mtoyoda/sl.git"
     action :sync
 end 
 
